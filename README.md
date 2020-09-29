@@ -1,6 +1,8 @@
 # ShaderShowcase_unity
 Shader Effects in Unity
 
-## Force Field Shields
+Most Effects are Animated, and some [Gifs are available](/Gifs/), though the quality can be a bit rough.
 
-![ffs](/Gifs/ForceFieldShields.gif)
+## Force Field Shields
+Click to open HD Image
+![ffs](/Images/ForceFieldShields.png)
