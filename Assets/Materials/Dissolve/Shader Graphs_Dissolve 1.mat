@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Dissolve
+  m_Name: Shader Graphs_Dissolve 1
   m_Shader: {fileID: -6465566751694194690, guid: 3f8935ea18cfd894fb139e4afd93a370, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 2
@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_AFB49A7:
-        m_Texture: {fileID: 2800000, guid: 0a0e8af2869fa45f78e25460db578482, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BASE_COLOR_MAP:
@@ -67,7 +67,7 @@ Material:
     - _SPECULAR_ROUGHNESS: 0
     m_Colors:
     - Color_4E2ABACF: {r: 0, g: 0.9179602, b: 1, a: 0}
-    - Color_B8FF046C: {r: 0, g: 23.968628, b: 7.7730675, a: 0}
+    - Color_B8FF046C: {r: 23.968628, g: 0, b: 2.4648523, a: 0}
     - _BASE_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _SPECULAR_COLOR: {r: 1, g: 1, b: 1, a: 0}
