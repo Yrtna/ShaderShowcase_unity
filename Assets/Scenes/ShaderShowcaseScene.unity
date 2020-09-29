@@ -1365,7 +1365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &723301424
 Transform:
   m_ObjectHideFlags: 0
@@ -1518,6 +1518,38 @@ Transform:
   - {fileID: 1145129788}
   m_Father: {fileID: 19158955}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &790538324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 790538325}
+  m_Layer: 0
+  m_Name: -- Hologram Effects --
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &790538325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 790538324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.20131646, y: 1.2315856, z: 1.0121647}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2091516027}
+  - {fileID: 1789394305}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1145129787
 GameObject:
@@ -2347,7 +2379,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberToSpawn: 10
   spacing: 2
-  maxPerLine: 5
+  maxPerLine: 4
   go: {fileID: 8235004542630804910, guid: 58255ed3c1a24e941b2c8414a1832e08, type: 3}
   direction: {x: 0, y: 0, z: -1}
 --- !u!1001 &1556901916
@@ -2749,6 +2781,54 @@ Transform:
   m_Father: {fileID: 723301424}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1789394304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1789394305}
+  - component: {fileID: 1789394306}
+  m_Layer: 0
+  m_Name: Hologram Spawner (Sphere)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1789394305
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789394304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 790538325}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1789394306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789394304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f15233c569b3934eb46600653178310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberToSpawn: 10
+  spacing: 1.5
+  maxPerLine: 4
+  go: {fileID: 3196130708984249029, guid: acc23670095346f419ae12390afe0313, type: 3}
+  direction: {x: 0, y: 0, z: -1}
 --- !u!1 &1816673447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2910,6 +2990,54 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!1 &2091516026
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2091516027}
+  - component: {fileID: 2091516028}
+  m_Layer: 0
+  m_Name: Hologram Spawner (Kyle)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2091516027
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091516026}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 790538325}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2091516028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091516026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f15233c569b3934eb46600653178310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberToSpawn: 10
+  spacing: 1.5
+  maxPerLine: 4
+  go: {fileID: 1783455596775962245, guid: c6deb6deefdd0204fbec6d6b9b24d111, type: 3}
+  direction: {x: 0, y: 0, z: -1}
 --- !u!1 &2093703205
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,7 +3277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberToSpawn: 10
   spacing: 2
-  maxPerLine: 1
+  maxPerLine: 4
   go: {fileID: 6689377526967844141, guid: a58e92555652b214691c5f9c0dffc487, type: 3}
   direction: {x: 0, y: 0, z: -1}
 --- !u!1 &2138677391
