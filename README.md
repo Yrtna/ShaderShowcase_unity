@@ -5,9 +5,13 @@ Every Effect is Animated, and some [Gifs might be available](/Gifs/), though the
 
 ## Table of Contents
 
-[Force Field Shields](#force-field-shields)
+* [Force Field Shield](#force-field-shield)
+* [Dissolve](#dissolve)
+* [Hologram](#hologram)
+* [Liquid](#liquid)
+* [Force Field Shields](#force-field-shields)
 
-## Force Field Shields
+## Force Field Shield
 ![ffs](/Images/ForceFieldShields.png)
 
 ## Dissolve
