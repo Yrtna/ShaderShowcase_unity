@@ -1,9 +1,11 @@
 # ShaderShowcase_unity
 Shader Effects in Unity
 
-Most Effects are Animated, and some [Gifs are available](/Gifs/), though the quality can be a bit rough.
+Every Effect is Animated, and some [Gifs might be available](/Gifs/), though the quality can be a bit rough.
 
-v -- Click to open HD Image -- v
+## Table of Contents
+
+[Force Field Shields](#force-field-shields)
 
 ## Force Field Shields
 ![ffs](/Images/ForceFieldShields.png)
@@ -17,3 +19,7 @@ v -- Click to open HD Image -- v
 
 ![holokyle](/Images/HologramKyle.png)
 ![holosphere](/Images/Hologram.png)
+
+## Liquid
+
+![liquidbox](/Images/LiquidBox.png)
