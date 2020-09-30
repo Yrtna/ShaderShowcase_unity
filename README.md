@@ -19,7 +19,6 @@ Every Effect is Animated, and some [Gifs might be available](/Gifs/), though the
 ## Dissolve
 
 ![dissolve](/Images/Dissolve2.png)
-![dissolve](/Images/Dissolve.png)
 
 ## Hologram
 
