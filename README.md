@@ -12,3 +12,8 @@ v -- Click to open HD Image -- v
 
 ![dissolve](/Images/Dissolve2.png)
 ![dissolve](/Images/Dissolve.png)
+
+## Hologram
+
+![holokyle](/Images/HologramKyle.png)
+![holosphere](/Images/Hologram.png)
