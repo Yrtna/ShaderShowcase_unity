@@ -1,7 +1,7 @@
 # ShaderShowcase_unity
 Shader Effects in Unity
 
-Every Effect type uses only 1 single shader, the colors are modified with Material Property Blocks, this means there is only 1 material for each effect, to reduce redundancy. 
+Every Effect type uses only 1 single shader, the colors are modified with [Material Property Blocks](https://docs.unity3d.com/ScriptReference/MaterialPropertyBlock.html), this means there is only 1 material for each effect, to reduce redundancy. 
 
 Every Effect is Animated, and some [Gifs might be available](/Gifs/), though the quality can be a bit rough.
 
